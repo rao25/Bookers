@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root to: "homes#top" 
+  # root to: "コントローラー名#アクション名" ルートパス設定
   get 'books/new'
   get 'books' => 'books#index'
   post 'books' => 'books#create'
