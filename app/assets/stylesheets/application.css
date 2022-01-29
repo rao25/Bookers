@@ -27,7 +27,7 @@ body {
     color: green;
 }
 
-p, ol, ul, td {
+p, ul {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -39,12 +39,8 @@ p {
     margin: 33px;
 }
 
-a {
-    color: #000;
-}
-
 a:-webkit-any-link {
-    color: red;
+    color: #000;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -100,13 +96,6 @@ h2 {
 
 div {
     display: block;
-}
-
-.fielddiv {
-    margin-bottom: 10px;
-}
-
-.actions {
     margin-bottom: 10px;
 }
 
